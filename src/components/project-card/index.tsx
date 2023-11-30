@@ -42,7 +42,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           >
             {fund}
           </div>
-        ))}
+        ))};
       </div>
       <div className="flex items-center mt-4">
         <span className="mr-2">{views} Views</span>
