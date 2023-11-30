@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        orange: '#FF6700',
+        slate: '#EBEBEB',
+        gray: '#C0C0C0',
+        green: '#3F612D',
+        black: '#00100B'
+      },
+      fontFamily: {
+        raleway: ['var(--font-raleway)'],
+        sans: ['var(--font-source-sans-3)'],
+      },
+      boxShadow: {
+        '2': '2px 2px 0px #222222',
       },
     },
   },
